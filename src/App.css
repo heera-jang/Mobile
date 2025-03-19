@@ -6,7 +6,7 @@ nav a{font-size: 1.5rem; display: block; text-decoration: none; margin: 0 15px;c
 header{position:fixed; width: 100%; top:0; z-index: 100;}
 header h1{width: 180px; margin-left: 10px;}
 header h1 img{width: 100%; padding: 20px;}
-header .header_inner nav{width: 100%; background: #0ff; position: absolute; left:0; top:75px; 
+header .header_inner nav{width: 100%; background: #fff; position: absolute; left:0; top:75px; margin-top: 30px;
     height: 0; overflow: hidden;  transition: all .5s;}
 header .header_inner nav.show{ height:max-content;}
 header .header_inner nav.hide{ height: 0;}
@@ -16,9 +16,7 @@ header .header_inner nav ul li a:hover{ color: #ED1C24; font-weight: bold;}
 header button{position: absolute; right: 40px; top:27px; cursor: pointer;background: none;}
 header button .ico{ font-size: 1.5rem; }
 
-.gallery li{ position: absolute; left: 0; top: 0; width: 2000px; height: 1000px; display: none;}
 
-/* header .active{color: #ED1C24;} */
 
 
 
@@ -44,7 +42,7 @@ footer .sns .sns03 a{width:45px; height: 45px; background: url(../public/images/
 footer .sns span{font-size: 2.2rem; color: #eee;}
 
 
-footer .footer_right .family{
+/* footer .footer_right .family{
     width: 150px; 
     border: 1px solid #ccc;
     text-align: center; 
@@ -52,11 +50,13 @@ footer .footer_right .family{
     z-index: 20;
 }
 footer .family .arrow{
-    display:block; 
-    font-size:1rem;
-    text-align: center; 
-    padding: 10px 0;
-    transition: all 1s;
+    width: 80%;
+    position: absolute;
+    left: 55px;
+    top: 186px;
+    border: 1px solid #ccc;
+    background: #fff;
+    pointer-events: none;
 }
 footer .family .arrow:hover{
     color:#fff; 
@@ -96,15 +96,16 @@ footer .family .list a:hover{
     color: #fff; 
     background: #333;
 }
-
+ */
 
 
 /* main의 비주얼처리-swiper  */
-.visual{height:auto; margin-bottom: 20px;}
+/* .visual{margin-bottom: 20px;} */
 .visual img{width: 100%; height: auto;}
-.swiper-container {position: relative; width: 100%; height: 100%; z-index: 1; display: flex; transition-property: transform; box-sizing: content-box;}
-.swiper-container .swiper-slide {display: flex; justify-content: center; align-items: center; text-align: center;}
-
+.swiper-container {position: relative; z-index: 1; display: flex; transition-property: transform; box-sizing: content-box;}
+/* .swiper-container .swiper-slide {display: flex; justify-content: center; align-items: center; text-align: center;} */
+.visual ul li{font-size: 1.3rem; font-weight: 500; text-align: left; line-height: 2.5rem;}
+.visual ul li:nth-of-type(3){color: #fff;}
 /* .box{background: url(./assets/images/room1.jpg) no-repeat; height: 300px; width: 100%; background-position: center;}
 .box2{background: url(./assets/images/room2.jpg) no-repeat; height: 300px; width: 100%; background-position: center;}
  */

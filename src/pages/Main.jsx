@@ -8,8 +8,7 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
-import { NavLink } from 'react-router-dom';
-import Esg from "../pages/index_section/Esg"
+//import { NavLink } from 'react-router-dom';
 
 
 function getImgUrl(url, name){
@@ -24,15 +23,17 @@ function Main() {
     return (
         <>
           <section className='visual'>
-                <Swiper
-                    slidesPerView={1}
-                    spaceBetween={0} 
-                    loop={true}
-                    freemode={true}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,}}
-                        className="mySwiper1" >
+          <Swiper
+                spaceBetween={0} 
+                pagination={{clickable:true}} 
+                slidesPerView={1} 
+                loop={true} 
+                // autoplay={{
+                //    delay: 4000,
+                //    disableOnInteraction: false,
+                // }}
+                // modules={{Autoplay}}
+                className="mySwiper1" >
                     <SwiperSlide><img src={getImgUrl('/images','visual1')} alt="" />
                         <ul>
                             <li className="link1">

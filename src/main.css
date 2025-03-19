@@ -1,6 +1,4 @@
-.visual ul{position: absolute; left: 50%; top: 35%; transform: translateX(-50%);
-    text-align: center; width: 80%;}
-.visual ul li{font-size: 1.8rem; font-weight: 500; text-align: left; line-height: 3rem;}
+
 
 .company .company_right{text-align: center;}
 .company .company_right>img{margin-top: 20px; width: 100%; height: 100%;}
@@ -28,6 +26,7 @@
 .product_top a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff}
 .product ul{padding-bottom: 70px;}
 .product ul li{width: 200px; border-top: 2px solid #ccc; border-bottom: 2px solid #ccc;}
+
 
 /* 스와이퍼 css */
 .swiper-container .swiper-slide {flex-direction: column; }
