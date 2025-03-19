@@ -1,0 +1,60 @@
+.visual ul{position: absolute; left: 50%; top: 35%; transform: translateX(-50%);
+    text-align: center; width: 80%;}
+.visual ul li{font-size: 1.8rem; font-weight: 500; text-align: left; line-height: 3rem;}
+
+.company .company_right{text-align: center;}
+.company .company_right>img{margin-top: 20px; width: 100%; height: 100%;}
+.company .company_right .top1{font-family: "Roboto", sans-serif; font-weight: 200; font-size: 1.3rem; }
+.company .company_right h3{font-size: 2.5rem; margin-top: 10px;}
+.company .company_right .company_top{margin: 30px auto; width: 400px; height: 200px; 
+    background: #eee; border-radius: 20px; overflow: hidden;}
+.company .company_right .community_top p{font-family: "Noto Sans KR", sans-serif;}
+.company .company_right .company_img{margin-top: 30px;}
+.company .company_top .company_box2{float: left; padding: 40px 20px 40px 40px;}
+.company .company_top .company_box3 p{padding-top: 40px; font-size: 1.2rem; line-height: 1.8rem; font-weight: 500;}
+.company .company_box .company_bottom p{line-height: 1.88rem;}
+.company .company_box .company_bottom a{margin: 20px auto; width: 132px; color: #666; border: 2px solid #999; padding: 8px 0;
+    border-radius: 20px; box-sizing: border-box; text-align: center; transition: all .5s ease-out;}
+.company .company_box .company_bottom a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff;}
+
+
+.product{margin-top: 100px;}
+.product_top{width: 100%; height: 100%; text-align: center;}
+.product_top h3{font-size: 2.5rem; margin-top: 10px;} 
+.product_top p:nth-of-type(1){font-family: "Roboto", sans-serif; font-weight: 200; font-size: 1.3rem;}
+.product_top p:nth-of-type(2){line-height: 2rem; margin-top: 10px;}
+.product_top a{ width: 132px; color: #666; border: 2px solid #999; padding: 8px 0;gap: 50px;
+    border-radius: 20px; box-sizing: border-box; text-align: center; margin: 20px auto; transition: all .5s ease-out; }
+.product_top a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff}
+.product ul{padding-bottom: 70px;}
+.product ul li{width: 200px; border-top: 2px solid #ccc; border-bottom: 2px solid #ccc;}
+
+/* 스와이퍼 css */
+.swiper-container .swiper-slide {flex-direction: column; }
+.product .swiper-button-next, .swiper-container-rtl .swiper-button-prev {display: none;}
+.product .swiper-button-prev, .swiper-container-rtl .swiper-button-next {display: none;}
+.product .swiper-container-horizontal>.swiper-scrollbar {display: none;}
+.swiper-pagination-bullet .swiper-pagination-bullet-active{background: #ED1C24;}
+
+
+
+
+.management_inner{background: url(../public/images/management2.jpg) no-repeat; width: 100%; height: 250px;}
+
+
+
+
+
+
+
+
+
+
+.recruit .recruit_inner{padding: 100px 0 100px 0; height: auto; width: 100%; text-align: center;
+    background: url(../public/images/recruit.png) no-repeat; object-fit: cover;  background-position: center;}
+.recruit .recruit_inner h3{font-size: 2.5rem; margin-top: 10px;}
+.recruit .recruit_inner p:nth-of-type(1){font-family: "Roboto", sans-serif; font-weight: 200; font-size: 1.3rem;}
+.recruit .recruit_inner p:nth-of-type(2){font-size: 1.rem; font-weight: 400; line-height: 1.8rem; }
+.recruit .recruit_inner a{width: 132px; color: #666; margin-top: 10px; border: 2px solid #999; padding: 8px 0;
+   border-radius: 20px; box-sizing: border-box; text-align: center; margin: 0 auto; background: #fff; transition: all .5s ease-out;}
+.recruit .recruit_inner a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff;}

@@ -1,0 +1,110 @@
+#content{background: #fff; height: max-content;}
+nav a{font-size: 1.5rem; font-weight: 500; font-family: 'Roboto', sans-serif;  display: block; text-decoration: none; margin: 0 15px;color: #333;}
+
+/* 헤더영역 */
+nav a{font-size: 1.5rem; display: block; text-decoration: none; margin: 0 15px;color: #333;}
+header{position:fixed; width: 100%; top:0; z-index: 100;}
+header h1{width: 180px; margin-left: 10px;}
+header h1 img{width: 100%; padding: 20px;}
+header .header_inner nav{width: 100%; background: #0ff; position: absolute; left:0; top:75px; 
+    height: 0; overflow: hidden;  transition: all .5s;}
+header .header_inner nav.show{ height:max-content;}
+header .header_inner nav.hide{ height: 0;}
+header .header_inner nav ul li{width:100%; text-align: center;}
+header .header_inner nav ul li a{padding: 20px 0; transition:all .5s ;}
+header .header_inner nav ul li a:hover{ color: #ED1C24; font-weight: bold;}
+header button{position: absolute; right: 40px; top:27px; cursor: pointer;background: none;}
+header button .ico{ font-size: 1.5rem; }
+
+.gallery li{ position: absolute; left: 0; top: 0; width: 2000px; height: 1000px; display: none;}
+
+/* header .active{color: #ED1C24;} */
+
+
+
+/* 푸터영역 */
+footer{width: 100%; height: 350px; background: #666666; text-align: center;}
+footer .top_move{z-index: 100;
+    background: url(../public/images/top_move.svg);
+     display: flex; width: 60px; height:60px; justify-content: center;align-items: center;
+          color: #fff; position:fixed; bottom: 50px; right: 10px; opacity: 0; transition: all .5s;}
+footer .top_move.up{ opacity: 0;}
+footer .top_move.down{ opacity: 1;}
+
+footer .footer_inner{margin: 0 auto; color: #eee; position: relative;}
+/* footer .footer_inner::before{content: ''; width: 1px; height: 280px; background: #999; position: absolute; left: 800px; top: 35px;} */
+footer img{width: 60%; height: auto; margin: 30px 0 0;}
+footer address{line-height: 1.5rem; margin-bottom: 10px;}
+.bottom_menu {display: flex; justify-content: space-around; gap: 30px; margin: 20px auto; width: 70%;}
+
+footer .sns{padding: 30px 0; display: flex; gap: 20px; justify-content: center;}
+footer .sns .sns01 a{width:45px; height: 45px; background: url(../public/images/sns01.svg) no-repeat;}
+footer .sns .sns02 a{width:45px; height: 45px; background: url(../public/images/sns02.svg) no-repeat;}
+footer .sns .sns03 a{width:45px; height: 45px; background: url(../public/images/sns03.svg) no-repeat;}
+footer .sns span{font-size: 2.2rem; color: #eee;}
+
+
+footer .footer_right .family{
+    width: 150px; 
+    border: 1px solid #ccc;
+    text-align: center; 
+    position: relative; 
+    z-index: 20;
+}
+footer .family .arrow{
+    display:block; 
+    font-size:1rem;
+    text-align: center; 
+    padding: 10px 0;
+    transition: all 1s;
+}
+footer .family .arrow:hover{
+    color:#fff; 
+    background: #333;
+}
+footer .footer_right .family a{
+    font-size: 1rem; 
+    color: #333;
+}
+footer .family .list{
+    width: 150px;
+    position: absolute; 
+    left: -1px; 
+    top: -290px;
+    border: 1px solid #ccc;
+    display: none;
+    background: #fff;
+    pointer-events: none;
+}
+
+footer .family .list.open{
+    display: block;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+footer .family .list li{
+    line-height: 1.5rem; 
+    border-bottom: 1px solid #ccc;
+}
+footer .family .list a{
+    display: block; 
+    text-align: center;
+    padding: 5px 0;
+}
+footer .family .list a:hover{
+    color: #fff; 
+    background: #333;
+}
+
+
+
+/* main의 비주얼처리-swiper  */
+.visual{height:auto; margin-bottom: 20px;}
+.visual img{width: 100%; height: auto;}
+.swiper-container {position: relative; width: 100%; height: 100%; z-index: 1; display: flex; transition-property: transform; box-sizing: content-box;}
+.swiper-container .swiper-slide {display: flex; justify-content: center; align-items: center; text-align: center;}
+
+/* .box{background: url(./assets/images/room1.jpg) no-repeat; height: 300px; width: 100%; background-position: center;}
+.box2{background: url(./assets/images/room2.jpg) no-repeat; height: 300px; width: 100%; background-position: center;}
+ */
