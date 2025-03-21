@@ -16,6 +16,7 @@ function getImgUrl(url, name){
     //new URL(이미지의 경로, import.meta.url).href -> vite의 이미지 불러오는 객체.
 }
 
+
 function Main() {
 
     SwiperCore.use([Navigation, Pagination, Scrollbar]);

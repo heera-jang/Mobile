@@ -9,7 +9,7 @@ function About() {
 
         <article id="About">
             <div className="content_top">
-                 <img src={IMAGES.room1} alt="회사소개 배경이미지" style={{width:'100%'}} />
+                 <img src={IMAGES.room1} alt="회사소개 페이지 배경이미지" style={{width:'100%'}} />
                 <p>ceo message</p>
                 <h2>회사소개</h2> 
                 <p></p>

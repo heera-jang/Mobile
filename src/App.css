@@ -3,18 +3,24 @@ nav a{font-size: 1.5rem; font-weight: 500; font-family: 'Roboto', sans-serif;  d
 
 /* 헤더영역 */
 nav a{font-size: 1.5rem; display: block; text-decoration: none; margin: 0 15px;color: #333;}
-header{position:fixed; width: 100%; top:0; z-index: 100;}
-header h1{width: 180px; margin-left: 10px;}
+header{position:fixed; width: 100%; top:0; z-index: 100; }
+header.up {background: none; }
+header.down {background-color: #fff; box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.205); z-index: 99;}
+
+header h1{width: 180px; margin-left: 10px; z-index: 200;}
 header h1 img{width: 100%; padding: 20px;}
-header .header_inner nav{width: 100%; background: #fff; position: absolute; left:0; top:75px; margin-top: 30px;
+header .header_inner nav{width: 100%; background: #fff;left:0; top:0px; margin: 0;
     height: 0; overflow: hidden;  transition: all .5s;}
-header .header_inner nav.show{ height:max-content;}
+header .header_inner nav.show{ height:max-content; z-index: 0;}
 header .header_inner nav.hide{ height: 0;}
-header .header_inner nav ul li{width:100%; text-align: center;}
-header .header_inner nav ul li a{padding: 20px 0; transition:all .5s ;}
+header .header_inner nav ul li{width:100%; text-align: center; padding: 10px 0;}
+header .header_inner nav ul li:nth-of-type(1){padding-top: 0;}
+header .header_inner nav ul li a{padding: 20px 0;}
 header .header_inner nav ul li a:hover{ color: #ED1C24; font-weight: bold;}
-header button{position: absolute; right: 40px; top:27px; cursor: pointer;background: none;}
+
+header button{position: absolute; right: 40px; top:27px; cursor: pointer; background: none;}
 header button .ico{ font-size: 1.5rem; }
+
 
 
 
