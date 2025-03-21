@@ -1,7 +1,9 @@
 const IMAGES = {
-    room1: new URL('./room1.jpg', import.meta.url).href,
-    room2: new URL('./room2.jpg', import.meta.url).href,
-    room3: new URL('./room3.jpg', import.meta.url).href,
-    room4: new URL('./room4.jpg', import.meta.url).href
+    bg1: new URL('./bg1.jpg', import.meta.url).href,
+    bg2: new URL('./bg2.jpg', import.meta.url).href,
+    bg3: new URL('./bg3.jpg', import.meta.url).href,
+    bg4: new URL('./bg4.jpg', import.meta.url).href,
+    bg5: new URL('./bg5.jpg', import.meta.url).href,
+    bg6: new URL('./bg6.jpg', import.meta.url).href
  }
  export default IMAGES;

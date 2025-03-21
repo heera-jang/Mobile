@@ -5,7 +5,7 @@ function Product() {
     return (
     <article id="Product">
         <div className="content_top">
-                <img src={IMAGES.room3} alt="제품소개 페이지 배경이미지" style={{width:'100%'}} />
+                <img src={IMAGES.bg3} alt="제품소개 페이지 배경이미지" style={{width:'100%'}} />
                 <p>product</p>
                 <h2>제품소개</h2> 
                 <p></p>
@@ -46,7 +46,7 @@ function Product() {
             <h3>판콜</h3>
             <p>PANCOLD</p>
         </div>
-        <div className="content_inner">
+        <div className="content_inner reverse">
             <div>
                 <img src="/images/sub3_2.png" alt="판콜 이미지" />
             </div>

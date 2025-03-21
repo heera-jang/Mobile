@@ -5,7 +5,7 @@ function Develop() {
     return (
         <article id="Develop">
             <div className="content_top">
-                <img src={IMAGES.room2} alt="연구개발 페이지 배경이미지" style={{width:'100%'}} />
+                <img src={IMAGES.bg2} alt="연구개발 페이지 배경이미지" style={{width:'100%'}} />
                 <p>research and development</p>
                 <h2>연구개발</h2> 
                 <p></p>

@@ -31,7 +31,7 @@
 #Product .content_top p:nth-of-type(2){width: 2px; height: 50px; background: #ccc; margin: 30px auto;}
 #Product .top_text p{margin: 60px auto; width: 80%;}
 #Product .top_text span{background-color: seashell;}
-#Product .content_inner{display: flex; gap: 30px; width: 80%; margin: 0 auto;}
+#Product .content_inner{display: flex; gap: 30px; width: 80%; margin: 0 auto; border-bottom: 2px solid rgba(237, 28, 36, .3); padding-bottom: 60px;}
 #Product .content_inner .text p{text-align: left; line-height: 1.8rem;}
 #Product .text_line{display: flex; flex-direction: column; justify-content: space-around;}
 #Product .text_line p:nth-of-type(2){margin-bottom: -20px;}
@@ -40,6 +40,7 @@
 #Product .content_inner .text p:nth-of-type(3){margin-bottom: 0; font-weight: 600;}
 #Product .content_inner .text p:nth-of-type(5){margin-top: 10px; font-weight: 600;}
 #Product .last{margin-bottom: 100px;}
+#Product .reverse{flex-direction: row-reverse}
 
 @media screen and (max-width:600px) {
    #Product .text_line{display: none;}
@@ -49,17 +50,35 @@
 
 #Esg {margin: 0 auto; width: 100%; text-align: center;}
 #Esg .content_top p{font-weight: 300; margin-top: 50px;}
-#Esg .content_top h2{font-size: 1.8rem; }
 #Esg .content_top p:nth-of-type(2){width: 2px; height: 50px; background: #ccc; margin: 30px auto;}
+#Esg .content_area .p1{width: 90%; margin: 0 auto;}
+#Esg .content_area ul{margin-bottom: 80px;}
+#Esg .content_area ul li{margin-bottom: 50px;}
 
-#Esg .content_area .esgText{width: 80%; margin: 0 auto;}
+#Esg .content_area ul li:nth-of-type(1) div{ width: 90%; margin: 0 auto; text-align: left;}
+#Esg .content_area ul li:nth-of-type(2) div{ width: 90%;; margin: 0 auto; float: right;  text-align: right;}
+#Esg .content_area ul li:nth-of-type(3) div{ width: 90%; margin: 0 auto;  text-align: left;}
+
+#Esg .content_area ul li:nth-of-type(1) img{float: left; width: 95%; margin: 10px auto; border-radius: 0 300px 300px 0;}
+#Esg .content_area ul li:nth-of-type(2) img{width: 95%; margin: 0 auto;  float: right; border-radius: 300px 0 0 300px;}
+#Esg .content_area ul li:nth-of-type(3) img{float: left; width: 95%; margin: 10px auto; border-radius: 0 300px 300px 0;}
+
+#Esg .content_area ul li h3{ width: 100%; font-size: 1.5rem; font-weight: 500; margin-top: 20px;}
+#Esg .content_area ul li:nth-of-type(2) h4{width: 95%;}
+
+#Esg .content_area ul li p{width: 95%; line-height: 1.5rem; margin-top: 20px;}
+#Esg .content_area ul li:nth-of-type(2) h3{width: 95%;}
+#Esg .content_area ul li:nth-of-type(2){ float: right;}
+
+
+
+/* #Esg .content_area .esgText{width: 80%; margin: 0 auto;}
 #Esg .content_area .esgText p{text-align: center; line-height: 1.8rem; padding-bottom: 60px;}
-/* #Esg .box ul li{display: flex; width: 80%; margin: 0 auto;} */
 
 #Esg .content_area .textBox{position: relative; margin-bottom: 100px;}
-#Esg .content_area .box ul li img{width: 80%;}
-#Esg .content_area .box ul li:nth-of-type(1) img{border-radius: 0 200px 200px 0;} 
-#Esg .content_area .box ul li:nth-of-type(2) img{border-radius: 200px 0 0 200px;} 
+#Esg .content_area .box ul li dl dt{font-weight: 600; font-size: 1.3rem; margin-top: 20px;}
+#Esg .content_area .box ul li:nth-of-type(1) img{border-radius: 0 200px 200px 0; } 
+#Esg .content_area .box ul li:nth-of-type(2) img{border-radius: 250px 0 0 250px; padding: 20px 50px;} 
 #Esg .content_area .box ul li:nth-of-type(3) img{border-radius: 0 200px 200px 0;} 
 
 #Esg .content_area div .topText{position: absolute; top: 50px; left: 305px; text-align: center; font-size: 1.1rem; line-height: 2.5rem;
@@ -67,6 +86,6 @@
 #Esg .content_area .innerTop{margin: 100px auto;}
 #Esg .content_area .innerTop div span{font-weight: 600; font-size: 1.1rem;}
 #Esg .content_area .innerTop div strong{font-size: 4.5rem; color: yellowgreen;}
-#Esg .content_area .innerTop div p:nth-of-type(1){line-height: 2rem; width: 80%; margin: 0 auto;}
+#Esg .content_area .innerTop div p:nth-of-type(1){line-height: 2rem; width: 80%; margin: 0 auto;} */
 
 

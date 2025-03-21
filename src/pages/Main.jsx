@@ -3,7 +3,7 @@ import '../app.css';
 import '../main.css';
 
 import { Swiper, SwiperSlide} from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Scrollbar} from "swiper";
+import SwiperCore, { Navigation, Pagination, Scrollbar, Autoplay} from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
@@ -19,7 +19,7 @@ function getImgUrl(url, name){
 
 function Main() {
 
-    SwiperCore.use([Navigation, Pagination, Scrollbar]);
+    SwiperCore.use([Navigation, Pagination, Scrollbar, Autoplay]);
 
     return (
         <>
@@ -29,31 +29,28 @@ function Main() {
                 pagination={{clickable:true}} 
                 slidesPerView={1} 
                 loop={true} 
-                // autoplay={{
-                //    delay: 4000,
-                //    disableOnInteraction: false,
-                // }}
-                // modules={{Autoplay}}
+                autoplay={{
+                   delay: 3000,
+                   disableOnInteraction: false,
+                }}
+                modules={{Autoplay}}
                 className="mySwiper1" >
                     <SwiperSlide><img src={getImgUrl('/images','visual1')} alt="" />
                         <ul>
                             <li className="link1">
-                            <span>"신뢰를 바탕으로, <br />여러분의 건강을 지키는
-                                                        파트너가 되겠습니다."</span></li>
+                            <span>" 여러분의 건강을 <br />지키는 파트너"</span></li>
                         </ul>
                     </SwiperSlide>
                     <SwiperSlide><img src={getImgUrl('/images','visual2')} alt="" />
                          <ul>
-                            <li className="link2">
-                            <span>“인간 중심의 헬스케어,<br />
-                            동화약품과 함께 건강한 미래를 만듭니다.”</span></li>
+                            <li className="link1">
+                            <span>“동화약품과 <br />함께 만드는 미래”</span></li>
                        </ul>
                     </SwiperSlide>
                     <SwiperSlide><img src="/images/visual3.jpg" alt="" />
                          <ul>
-                            <li className="link3">
-                            <span>“지속 가능한 발전으로 더 나은 세상을 위한 약속,<br />
-                                        동화약품과 함께하세요.”</span>
+                            <li className="link1">
+                            <span>“지속 가능한 발전으로<br /> 더 나은 세상을 위한 약속”</span>
                             </li>
                         </ul>
                     </SwiperSlide> 
@@ -81,8 +78,8 @@ function Main() {
                         </div>
                         <div className="company_bottom">
                             <p>동화약품은 1897년 대한민국 최초 제약기업으로<br />
-                                설립된 이래 인간행복 경영을 통하여 고객 및 직원 모두의 행복을 <br />
-                                추구하여 왔습니다. 이제 이러한 행복이 새로운 100년을 이어가도록 <br />
+                                설립된 이래 인간행복 경영을 통하여 고객 및 직원 모두의 행복을
+                                추구하여 왔습니다. 이제 이러한 행복이 새로운 100년을 이어가도록
                                 변화혁신 경영을 통하여 진정으로 행복한 기업 동화가 되려 합니다.</p>
                             <a href="./About.jsx">자세히 보기   +</a>
                         </div>

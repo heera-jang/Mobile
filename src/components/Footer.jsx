@@ -37,7 +37,7 @@ function Footer() {
        <footer>
             <a className={'top_move '+( upDown ? 'down' : 'up' )} href="#" onClick={topHandler}>TOP</a>
             <div className="footer_inner">
-                <div className="footer_left">
+               <div className="footer_left">
                     <img src="/images/logo_bottom.png" alt="동화약품하단로고" />
                     <ul className="bottom_menu">
                         <li>이용약관</li>
@@ -56,18 +56,20 @@ function Footer() {
                         <li className="sns02"><a href="https://comic.naver.com/webtoon/list?titleId=360841" target="_blank" title="동화약품 네이버 웹툰"></a></li>
                         <li className="sns03"><a href="https://www.youtube.com/channel/UCTvDA4HjUraby5HIHxRJD4A" target="_blank" title="동화약품 유튜브"></a></li>
                      </ul>
-                </div>
-                <div className="family">
-                  <a className="arrow" onClick={famHandler} href="/">Family Site
+                     <div className="family">
+                  <a className="arrow" onClick={famHandler} href="/">Family Site&ensp;&ensp;
                      <span><i className={`fa-solid ${isOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i></span>
                   </a>
                   <ul className={`list ${isOpen ? "open" : ""}`}>
-                     <li><a href="https://www.dw1897.co.kr/emall/" target="_blank" title="동화 eMall 사이트 새창에 열림">동화 eMall</a></li>
+                     <li><a href="https://www.dw1897.co.kr/emall/" target="_blank" title="동화 eMall 새창에 열림">동화 eMall</a></li>
                      <li><a href="http://www.whalmyungsu.co.kr/new/main.html" target="_blank" title="활명수 사이트 새창에 열림">활명수</a></li>
                      <li><a href="http://www.myeach.co.kr/" target="_blank" title="잇치 사이트 새창에 열림">잇치</a></li>
                      <li><a href="http://www.dwpharm-dc.com/" target="_blank" title="더마코스메틱 사이트 새창에 열림">더마코스메틱</a></li>
                   </ul>
               </div>
+                </div>
+                
+
             </div>
        </footer>
     );
