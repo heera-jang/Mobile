@@ -49,7 +49,9 @@
 }
 
 #Esg {margin: 0 auto; width: 100%; text-align: center;}
+#Esg .title{margin-top: 70px;}
 #Esg .content_top p{font-weight: 300; margin-top: 50px;}
+#Esg .content_top h2{font-size: 1.8rem; }
 #Esg .content_top p:nth-of-type(2){width: 2px; height: 50px; background: #ccc; margin: 30px auto;}
 #Esg .content_area .p1{width: 90%; margin: 0 auto;}
 #Esg .content_area ul{margin-bottom: 80px;}

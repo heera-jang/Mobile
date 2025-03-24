@@ -51,8 +51,8 @@ function Header() {
       <div className="header_inner">
         <h1>
           <NavLink to="/">
-            <img src={img1} alt="동화약품 로고" />
-            <span className='hidden'>동화약품 로고</span>
+            <img src={img1} alt="동화약품" />
+            <span className='hidden'>동화약품</span>
           </NavLink>
         </h1>
         <nav className={isSwitched ? 'show' : 'hide'} onClick={closeHandler}>
@@ -62,7 +62,6 @@ function Header() {
             <li><h3><NavLink to="/Develop">연구개발</NavLink></h3></li>
             <li><h3><NavLink to="/Product">제품정보</NavLink></h3></li>
             <li><h3><NavLink to="/Esg">ESG경영</NavLink></h3></li>
-            <li><h3><NavLink to="/Community">커뮤니티</NavLink></h3></li>
             <li><h3><NavLink to="/Carrer">인재채용</NavLink></h3></li>
           </ul>
         </nav>
