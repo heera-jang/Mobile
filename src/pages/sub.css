@@ -74,22 +74,28 @@
 
 
 
-/* #Esg .content_area .esgText{width: 80%; margin: 0 auto;}
-#Esg .content_area .esgText p{text-align: center; line-height: 1.8rem; padding-bottom: 60px;}
 
-#Esg .content_area .textBox{position: relative; margin-bottom: 100px;}
-#Esg .content_area .box ul li dl dt{font-weight: 600; font-size: 1.3rem; margin-top: 20px;}
-#Esg .content_area .box ul li:nth-of-type(1) img{border-radius: 0 200px 200px 0; } 
-#Esg .content_area .box ul li:nth-of-type(2) img{border-radius: 250px 0 0 250px; padding: 20px 50px;} 
-#Esg .content_area .box ul li:nth-of-type(3) img{border-radius: 0 200px 200px 0;} 
 
-#Esg .content_area div .topText{position: absolute; top: 50px; left: 305px; text-align: center; font-size: 1.1rem; line-height: 2.5rem;
-    font-weight: 400;}
-#Esg .content_area .innerTop{margin: 100px auto;}
-#Esg .content_area .innerTop div span{font-weight: 600; font-size: 1.1rem;}
-#Esg .content_area .innerTop div strong{font-size: 4.5rem; color: yellowgreen;}
-#Esg .content_area .innerTop div p:nth-of-type(1){line-height: 2rem; width: 80%; margin: 0 auto;} */
+#Carrer {margin: 0 auto; width: 100%; text-align: center;}
+#Carrer .content_top p{font-weight: 300; margin-top: 50px;}
+#Carrer .content_top h2{font-size: 1.8rem; }
+#Carrer .content_top p:nth-of-type(2){width: 2px; height: 50px; background: #ccc; margin: 30px auto;}
+
+#Carrer .content_area .content_inner p{font-weight: 600; font-size: 1.5rem; margin-bottom: 50px;}
+#Carrer .content_area .content_inner ul{width: 90%; margin: 20px auto; box-sizing: border-box;
+    border-bottom: 1px solid #ccc; padding-bottom: 50px;}
+#Carrer .content_area .content_inner ul li:nth-of-type(1){font-size: 1.2rem;  font-weight: 500; margin-bottom: 20px;}
 
 
 
-.Accordion{width: 100%; height: 1000px;}
+#Carrer .content_bottom{width: 100%; margin: 0 auto;}
+#Carrer .content_bottom>p{font-weight: 600; font-size: 1.5rem; margin-top: 100px;}
+#Carrer .content_bottom .bottom_inner{width: 100%; margin: 50px auto;}
+#Carrer .content_bottom .bottom_text{margin:30px auto;}
+#Carrer .content_bottom .bottom_text>strong{font-size: 1.1rem; font-weight: 700; }
+#Carrer .content_bottom .bottom_text p{font-size: 1rem; line-height: 1.5rem; margin: 20px;}
+
+#Carrer .content_bottom .bottom_inner .img{background: url(../../public/images/carrer_bg.png) no-repeat;
+    background-position: center; width: 100%; height: 250px;}
+
+

@@ -74,24 +74,12 @@
     border-radius: 20px; box-sizing: border-box; text-align: center; margin: 20px auto; transition: all .5s ease-out; }
 .management_top a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff}
 
-/* .management_inner{width: 100%; height: 250px;} */
-/* .management .management_inner .obj{width: 640px; margin: 0 auto;} */
-/* .management .management_inner .obj{display: table;  width: 100%; height: 100%;  position: relative;
-    min-height: 350px;
-    flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    max-width: 50%;} */
-/* .management .management_inner .obj ul li span{font-size: 1.3rem; color: red; font-weight: 500; position: absolute;} */
-.management .management_inner .obj{height: max-content; width: 100%; display: flex; flex-direction: row;}
-.management .management_inner .obj .obj_box span{font-size: 1.75em; color: #fff; display: table-cell; vertical-align: middle; font-weight: 600; text-align: center;}
-.management .management_inner .obj .obj_box{width: 100%; height: 300px; }
-.management .management_inner .obj .obj_box:nth-of-type(1){background: url(../public/images/management.png) no-repeat; }
-.management .management_inner .obj .obj_box:nth-of-type(2){background: url(../public/images/management2.png) no-repeat;}
-.management .management_inner .obj .obj_box:nth-of-type(3){background: url(../public/images/management3.png) no-repeat;}
-.management .management_inner .obj .obj_box:nth-of-type(4){background: url(../public/images/management4.png) no-repeat;}
-
-
-
+.management .img_box{width: 100%;}
+.esg_text {font-weight: 600; color: #fff;  font-size: 2rem;  position: absolute;  left: 42%; top: 46%;}
+ @media screen and (max-width:400px) {
+        .esg_text{ left: 39%}
+        
+    }
 .recruit .recruit_inner{padding: 100px 0 100px 0; height: auto; width: 100%; text-align: center;
     background: url(../public/images/recruit.png) no-repeat; object-fit: cover;  background-position: center;}
 .recruit .recruit_inner h3{font-size: 2.5rem; margin-top: 10px;}

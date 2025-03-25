@@ -8,7 +8,6 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
-//import { NavLink } from 'react-router-dom';
 
 
 function getImgUrl(url, name){
@@ -80,7 +79,7 @@ function Main() {
                                 설립된 이래 인간행복 경영을 통하여 고객 및 직원 모두의 행복을
                                 추구하여 왔습니다. 이제 이러한 행복이 새로운 100년을 이어가도록
                                 변화혁신 경영을 통하여 진정으로 행복한 기업 동화가 되려 합니다.</p>
-                            <a href="./About.jsx">자세히 보기   +</a>
+                            <a href="/About">자세히 보기   +</a>
                         </div>
                     </div>      
                 </div>
@@ -90,7 +89,7 @@ function Main() {
                     <p>products</p>
                     <h3>제 품 정 보</h3>
                     <p>동화약품의 다양한 제품들을 만나보아요.</p>
-                    <a href="./Product.jsx">자세히 보기   +</a>
+                    <a href="/Product">자세히 보기   +</a>
                 </div>
                 <Swiper slidesPerView={1} spaceBetween={0} loop={true}
                 pagination={{clickable:true}} navigation={{clickable:true}}
@@ -145,9 +144,9 @@ function Main() {
                 <div className="research_top">
                     <p>research and development</p>
                     <h3>연 구 개 발</h3>
-                    <p>동화약품 연구소는 지속적인 R&D 투자를 통해 신약 개발은 물론 <br />
+                    <p>동화약품은 지속적인 R&D 투자를 통해 신약 개발은 물론 <br />
                         제네릭, 일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
-                    <a href="./Develop.jsx">자세히 보기   +</a>
+                    <a href="/Develop">자세히 보기   +</a>
                 </div>
                 <div className="research_container">
                     <ul>
@@ -155,8 +154,9 @@ function Main() {
                             <div className='bg_box'>
                                 <img src="/images/research_icon2.svg" alt="" />                            
                                 <p className="p1">중점연구분야</p>
-                                <p className="p2">동화약품 연구소는 지속적인 R&D 투자를 통해 신약 개발은 물론 제네릭, 
-                                    일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
+                                <p className="p2">까스활명수, 후시딘연고, 판콜 등 많은 신제품을 개발하였으며, 
+                                    퀴놀론계 항균제 '자보란테'의 신약 개발 성공 및 골다공증치료제 후보물질(DW1350)의 기술이전 등 
+                                     국내 제약산업의 신약개발에 상당한 기여를 하였습니다.</p>
                             </div>
                         </li>
                     </ul>
@@ -166,75 +166,45 @@ function Main() {
             
             <section className="management">
                 <div className="management_top">
-                                <p>ESG management</p>
-                                <h3>ESG 경 영</h3>
-                                <a href="./sub4/sub4_1.html">자세히보기   +</a>
-                            </div>
+                    <p>ESG management</p>
+                    <h3>ESG 경 영</h3>
+                    <a href="/Esg">자세히보기   +</a>
+                </div>
                 <Swiper slidesPerView={1} spaceBetween={0} loop={true}
-                    pagination={{clickable:true}} navigation={{clickable:true}}
-                    scrollbar={{ draggable: true }}  className="mySwiper2" >
-                        <div className='productBox'>
-                            <SwiperSlide><img src="/images/product01.png" alt="화이투벤 이미지" />
+                     navigation={{clickable:true}}
+                     className="mySwiper2" >
+                        <div className='esgBox'>
+                            <SwiperSlide className="img_box"><img src="/images/management4.png" alt="화이투벤 이미지" />
                                 <ul>
                                     <li>
-                                        <p>화이투벤<br />Whituben</p>
+                                        <p className='esg_text'>ESG 철학</p>
                                     </li>
                                 </ul>
                             </SwiperSlide> 
                         </div>
-                        <SwiperSlide><img src="/images/product02.png" alt="케어랩 이미지" />
+                        <SwiperSlide className="img_box"><img src="/images/management.png" alt="케어랩 이미지" />
                             <ul>
                                 <li>
-                                    <p>케어랩 인지력케어 DW2009<br />CARELAB</p>
+                                    <p  className='esg_text'>환경경영</p>
                                 </li>
                             </ul>
                         </SwiperSlide> 
-                        <SwiperSlide><img src="/images/product03.png" alt="판콜 이미지" />
+                        <SwiperSlide className="img_box"><img src="/images/management3.png" alt="판콜 이미지" />
                             <ul>
                                 <li>
-                                <p>판콜<br />PANCOLD</p>
+                                    <p  className='esg_text'>인권경영</p>
                                 </li>
                             </ul>
                         </SwiperSlide> 
-                        <SwiperSlide><img src="/images/product04.png" alt="활명수 이미지" />
+                        <SwiperSlide className="img_box"><img src="/images/management2.png" alt="활명수 이미지" />
                             <ul>
                                 <li>
-                                <p>활명수<br />WHAL MYUNG SU</p>
+                                    <p  className='esg_text'>윤리경영</p>
                                 </li>
                             </ul>
-                        </SwiperSlide> 
-                        <SwiperSlide><img src="/images/product05.png" alt="후시딘 이미지" />
-                            <ul>
-                                <li>
-                                <p>후시딘<br />Fucidin</p>
-                                </li>
-                            </ul>
-                        </SwiperSlide> 
-                        <SwiperSlide><img src="/images/product06.png" alt="잇치페이스트 이미지" />
-                            <ul>
-                                <li>
-                                <p>잇치 페이스트<br />EACH Paste</p>
-                                </li>
-                            </ul>
-                        </SwiperSlide> 
+                        </SwiperSlide>
                     </Swiper>
-                {/* <div className="management_inner">
-                        <div className="management_top">
-                            <p>ESG management</p>
-                            <h3>ESG 경 영</h3>
-                            <a href="./sub4/sub4_1.html">자세히보기   +</a>
-                        </div>
-                        <div className='obj'>
-                           <div className='obj_box'><span>ESG경영</span></div>
-                           <div className='obj_box'><span>환경경영</span></div>
-                           <div className='obj_box'><span>인권경영</span></div>
-                           <div className='obj_box'><span>윤리경영</span></div>
-                        </div>
-                </div> */}
             </section> 
-
-
-
 
 
             <section className="recruit">
@@ -243,7 +213,7 @@ function Main() {
                     <h3>인 재 채 용</h3>
                     <p>행복을 추구하는 기업. 동화약품과 함께<br />
                         미래사회를 이끌어갈 인재를 찾습니다.</p>
-                    <a href="./Carrer.jsx">자세히 보기   +</a>
+                    <a href="/Carrer">자세히 보기   +</a>
                 </div>
             </section>
 
