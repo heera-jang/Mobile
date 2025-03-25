@@ -54,7 +54,6 @@ function Main() {
                             </li>
                         </ul>
                     </SwiperSlide> 
-
                 </Swiper>
           </section>
           <section className="company" >
@@ -142,14 +141,96 @@ function Main() {
                     </SwiperSlide> 
                 </Swiper>
             </section>
+            <section className="research">
+                <div className="research_top">
+                    <p>research and development</p>
+                    <h3>연 구 개 발</h3>
+                    <p>동화약품 연구소는 지속적인 R&D 투자를 통해 신약 개발은 물론 <br />
+                        제네릭, 일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
+                    <a href="./Develop.jsx">자세히 보기   +</a>
+                </div>
+                <div className="research_container">
+                    <ul>
+                        <li>
+                            <div className='bg_box'>
+                                <img src="/images/research_icon2.svg" alt="" />                            
+                                <p className="p1">중점연구분야</p>
+                                <p className="p2">동화약품 연구소는 지속적인 R&D 투자를 통해 신약 개발은 물론 제네릭, 
+                                    일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="photo"></div>
+                </div>
+            </section>
+            
             <section className="management">
-                <div className="management_inner">
-                        <div className="management_top" data-aos="fade-zoom-in">
+                <div className="management_top">
+                                <p>ESG management</p>
+                                <h3>ESG 경 영</h3>
+                                <a href="./sub4/sub4_1.html">자세히보기   +</a>
+                            </div>
+                <Swiper slidesPerView={1} spaceBetween={0} loop={true}
+                    pagination={{clickable:true}} navigation={{clickable:true}}
+                    scrollbar={{ draggable: true }}  className="mySwiper2" >
+                        <div className='productBox'>
+                            <SwiperSlide><img src="/images/product01.png" alt="화이투벤 이미지" />
+                                <ul>
+                                    <li>
+                                        <p>화이투벤<br />Whituben</p>
+                                    </li>
+                                </ul>
+                            </SwiperSlide> 
+                        </div>
+                        <SwiperSlide><img src="/images/product02.png" alt="케어랩 이미지" />
+                            <ul>
+                                <li>
+                                    <p>케어랩 인지력케어 DW2009<br />CARELAB</p>
+                                </li>
+                            </ul>
+                        </SwiperSlide> 
+                        <SwiperSlide><img src="/images/product03.png" alt="판콜 이미지" />
+                            <ul>
+                                <li>
+                                <p>판콜<br />PANCOLD</p>
+                                </li>
+                            </ul>
+                        </SwiperSlide> 
+                        <SwiperSlide><img src="/images/product04.png" alt="활명수 이미지" />
+                            <ul>
+                                <li>
+                                <p>활명수<br />WHAL MYUNG SU</p>
+                                </li>
+                            </ul>
+                        </SwiperSlide> 
+                        <SwiperSlide><img src="/images/product05.png" alt="후시딘 이미지" />
+                            <ul>
+                                <li>
+                                <p>후시딘<br />Fucidin</p>
+                                </li>
+                            </ul>
+                        </SwiperSlide> 
+                        <SwiperSlide><img src="/images/product06.png" alt="잇치페이스트 이미지" />
+                            <ul>
+                                <li>
+                                <p>잇치 페이스트<br />EACH Paste</p>
+                                </li>
+                            </ul>
+                        </SwiperSlide> 
+                    </Swiper>
+                {/* <div className="management_inner">
+                        <div className="management_top">
                             <p>ESG management</p>
                             <h3>ESG 경 영</h3>
                             <a href="./sub4/sub4_1.html">자세히보기   +</a>
                         </div>
-                </div>
+                        <div className='obj'>
+                           <div className='obj_box'><span>ESG경영</span></div>
+                           <div className='obj_box'><span>환경경영</span></div>
+                           <div className='obj_box'><span>인권경영</span></div>
+                           <div className='obj_box'><span>윤리경영</span></div>
+                        </div>
+                </div> */}
             </section> 
 
 
