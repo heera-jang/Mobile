@@ -144,8 +144,6 @@ function Main() {
                 <div className="research_top">
                     <p>research and development</p>
                     <h3>연 구 개 발</h3>
-                    <p>동화약품은 지속적인 R&D 투자를 통해 신약 개발은 물론 <br />
-                        제네릭, 일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
                     <a href="/Develop">자세히 보기   +</a>
                 </div>
                 <div className="research_container">
@@ -154,9 +152,8 @@ function Main() {
                             <div className='bg_box'>
                                 <img src="/images/research_icon2.svg" alt="" />                            
                                 <p className="p1">중점연구분야</p>
-                                <p className="p2">까스활명수, 후시딘연고, 판콜 등 많은 신제품을 개발하였으며, 
-                                    퀴놀론계 항균제 '자보란테'의 신약 개발 성공 및 골다공증치료제 후보물질(DW1350)의 기술이전 등 
-                                     국내 제약산업의 신약개발에 상당한 기여를 하였습니다.</p>
+                                <p className="p2">동화약품은 지속적인 R&D 투자를 통해 신약 개발은 물론
+                                제네릭, 일반의약품, 기능성 소재 등 다양한 분야에서 활발한 연구를 수행하고 있습니다.</p>
                             </div>
                         </li>
                     </ul>
@@ -174,32 +171,44 @@ function Main() {
                      navigation={{clickable:true}}
                      className="mySwiper2" >
                         <div className='esgBox'>
-                            <SwiperSlide className="img_box"><img src="/images/management4.png" alt="화이투벤 이미지" />
+                            <SwiperSlide className="img_box"><img src="/images/management.png" alt="ESG철학 이미지" /> 
                                 <ul>
                                     <li>
-                                        <p className='esg_text'>ESG 철학</p>
+                                        <p><span>ESG 철학</span><br /><br />
+                                        동화약품은 1897년 창립된 국내 최초 제약사입니다.“민족이 합심하면 잘 살수 있다.”는
+                                             정신 아래 국민의 안전과 건강을 최우선으로 생각하고 있습니다. </p>
+                                        {/* <p>동화약품은 1897년 창립된 국내 최초 제약사입니다.“민족이 합심하면 잘 살수 있다.”는
+                                             정신 아래 국민의 안전과 건강을 최우선으로 생각하고 있습니다. </p> */}
                                     </li>
                                 </ul>
                             </SwiperSlide> 
                         </div>
-                        <SwiperSlide className="img_box"><img src="/images/management.png" alt="케어랩 이미지" />
+                        <SwiperSlide className="img_box"><img src="/images/management2.png" alt="케어랩 이미지" />
                             <ul>
                                 <li>
-                                    <p  className='esg_text'>환경경영</p>
+                                    <p><span>환경경영</span><br /><br />
+                                    환경기본방침을 수립하여 환경경영활동을 적극적으로 수행하고 있습니다.</p>
+                                    {/* <p>환경기본방침을 수립하여 환경경영활동을 적극적으로 수행하고 있습니다. </p> */}
                                 </li>
                             </ul>
                         </SwiperSlide> 
                         <SwiperSlide className="img_box"><img src="/images/management3.png" alt="판콜 이미지" />
                             <ul>
                                 <li>
-                                    <p  className='esg_text'>인권경영</p>
+                                    <p><span>인권경영</span><br /><br />
+                                    전문성을 바탕으로 적극적으로 행동하고, 긍정적인 태도로 세상에 가치를 더하는 인재를 지향합니다.</p>
+                                    {/* <p>전문성을 바탕으로 적극적으로 행동하고, 긍정적인 태도로 세상에 가치를 더하는 인재를 지향합니다.</p> */}
                                 </li>
                             </ul>
                         </SwiperSlide> 
-                        <SwiperSlide className="img_box"><img src="/images/management2.png" alt="활명수 이미지" />
+                        <SwiperSlide className="img_box"><img src="/images/management4.png" alt="활명수 이미지" />
                             <ul>
                                 <li>
-                                    <p  className='esg_text'>윤리경영</p>
+                                    <p><span>윤리경영</span><br /><br />
+                                    동화정신에 내포되어 있는 봉사정신과 정도경영의 DNA는 127년간
+                                         우리 동화약품의 문화 속에 살아 숨쉬고 있으며 우리 모두와 함께 하고 있습니다. </p>
+                                    {/* <p>동화정신에 내포되어 있는 봉사정신과 정도경영의 DNA는 127년간
+                                         우리 동화약품의 문화 속에 살아 숨쉬고 있으며 우리 모두와 함께 하고 있습니다. </p> */}
                                 </li>
                             </ul>
                         </SwiperSlide>
@@ -208,9 +217,9 @@ function Main() {
 
 
             <section className="recruit">
+                  <p>recruit</p>
+                  <h3>인 재 채 용</h3>
                 <div className="recruit_inner">
-                    <p>recruit</p>
-                    <h3>인 재 채 용</h3>
                     <p>행복을 추구하는 기업. 동화약품과 함께<br />
                         미래사회를 이끌어갈 인재를 찾습니다.</p>
                     <a href="/Carrer">자세히 보기   +</a>

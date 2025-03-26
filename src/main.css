@@ -74,19 +74,26 @@
     border-radius: 20px; box-sizing: border-box; text-align: center; margin: 20px auto; transition: all .5s ease-out; }
 .management_top a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff}
 
-.management .img_box{width: 100%;}
-.esg_text {font-weight: 600; color: #fff;  font-size: 2rem;  position: absolute;  left: 42%; top: 46%;}
- @media screen and (max-width:400px) {
+ .management .img_box{width: 100%; position: relative;}
+ .management .img_box img{width: 100%; height: 100%;}
+ .management .img_box ul{ margin: 0 auto; position: absolute; left: 23%; top: 37%;}
+.management .img_box ul li span{font-size: 1.5rem;}
+.management .img_box ul li p{width: 70%; font-weight: 600; color: #fff;  font-size: 1rem; margin-bottom: 5px;} 
+
+
+@media screen and (max-width:400px) {
         .esg_text{ left: 39%}
-        
-    }
+    } 
+
+
+
+.recruit h3{font-size: 2.5rem; margin: 10px 50px; text-align: center;}
+.recruit  p:nth-of-type(1){text-align: center; font-family: "Roboto", sans-serif; font-weight: 200; font-size: 1.3rem;}
 .recruit .recruit_inner{padding: 100px 0 100px 0; height: auto; width: 100%; text-align: center;
     background: url(../public/images/recruit.png) no-repeat; object-fit: cover;  background-position: center;}
-.recruit .recruit_inner h3{font-size: 2.5rem; margin-top: 10px;}
-.recruit .recruit_inner p:nth-of-type(1){font-family: "Roboto", sans-serif; font-weight: 200; font-size: 1.3rem;}
-.recruit .recruit_inner p:nth-of-type(2){font-size: 1.rem; font-weight: 400; line-height: 1.8rem; }
+.recruit .recruit_inner p:nth-of-type(1){font-size: 1rem; font-weight: 400; line-height: 1.5rem; }
 .recruit .recruit_inner a{width: 132px; color: #666; margin-top: 10px; border: 2px solid #999; padding: 8px 0;
-   border-radius: 20px; box-sizing: border-box; text-align: center; margin: 0 auto; background: #fff; transition: all .5s ease-out;}
+   border-radius: 20px; box-sizing: border-box; text-align: center; margin: 10px auto; background: #fff; transition: all .5s ease-out;}
 .recruit .recruit_inner a:hover{background: #ED1C24; color: #fff; border: 2px solid #fff;}
 
 
