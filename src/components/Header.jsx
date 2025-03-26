@@ -65,9 +65,9 @@ function Header() {
             <li><h3><NavLink to="/Carrer">인재채용</NavLink></h3></li>
           </ul>
         </nav>
-        <button onClick={navHandler}>
+        <button className={isSwitched ? 'mn_open' : ''} onClick={navHandler}>
           <span className='hidden'>메뉴열기</span>
-          <FaBars className="ico" />
+          <span className="mn_open"><FaBars className="ico" /></span>
         </button>
       </div>
     </header>
